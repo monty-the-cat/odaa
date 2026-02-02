@@ -6,7 +6,7 @@ import catppuccin from '@catppuccin/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://otherdutiesasassigned.github.io',
-  	base: '/odaa',
+  	base: '/docs',
 	integrations: [
 		starlight({
 			title: 'Other Duties As Assigned',
@@ -17,7 +17,7 @@ export default defineConfig({
           		light: { flavor: 'latte', accent: 'sky' }
         })
       ],
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/monty-the-cat/odaa' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/OtherDutiesAsAssigned/' }],
 			sidebar: [
 				{
 					label: 'Guides',
